@@ -1,6 +1,6 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';    
 
-test('get started link', async ({ page }) => {
+test('@testsanity get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
